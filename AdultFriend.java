@@ -1,7 +1,6 @@
-package com.example;
+package example;
 
+ 
+	public class AdultFriend extends Friend{
+	}
 
-public class AdultFriend extends Friend{
-
-
-}
