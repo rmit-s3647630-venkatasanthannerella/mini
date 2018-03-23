@@ -1,6 +1,8 @@
-package com.example;
-
+package example;
 
 public abstract class Friend {
-    User mUser;
+   
+	//author harsha
+	User mUser;
 }
+
