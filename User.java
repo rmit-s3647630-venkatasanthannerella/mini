@@ -1,19 +1,13 @@
-package com.example;
-
+package example;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.jws.soap.SOAPBinding;
-
 public class User {
-
+	// author harsha
     Profile mProfile;
-
     int mAge;
-
     List<User> parents = new ArrayList<>();
-
     List<User> children = new ArrayList<>();
 
     public List<User> getChildren() {
@@ -40,8 +34,6 @@ public class User {
         this.mAge = mAge;
     }
 
-
-
     public Profile getmProfile() {
         return mProfile;
     }
@@ -49,6 +41,4 @@ public class User {
     public void setmProfile(Profile mProfile) {
         this.mProfile = mProfile;
     }
-
-
 }
